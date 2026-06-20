@@ -1,0 +1,38 @@
+openapi: 3.0.3
+
+info:
+  title: OpenKYC Federation API
+  version: 1.0.0
+  description: Federated identity verification APIs
+
+servers:
+  - url: http://localhost:3000
+
+paths:
+
+  /api/federation:
+    get:
+      summary: Federation status
+      responses:
+        "200":
+          description: Federation response
+
+components:
+
+  schemas:
+
+    Organization:
+      type: object
+      properties:
+        name:
+          type: string
+        country:
+          type: string
+
+    TrustResponse:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
