@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OpenKYC Federation
 
-## Getting Started
+A self-hosted and federated identity verification platform with portable records and open APIs.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+OpenKYC Federation helps organizations deploy their own identity verification infrastructure without vendor lock-in. It is designed for NGOs, SMEs, community services, public institutions, and digital service providers that need trusted identity workflows while maintaining control over their data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Self-hosted identity verification
+- Federated organization-to-organization trust
+- Portable user records
+- Open APIs
+- Multi-tenant architecture
+- Audit logs
+- Role-based access control
+- Docker-ready deployment
+- Kubernetes-ready roadmap
+- Open-source licensing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Fediversity Alignment
 
-## Learn More
+OpenKYC Federation supports the goals of NGI Fediversity by enabling service portability, user freedom, open hosting, and self-managed cloud services. Organizations can deploy, migrate, and interoperate without depending on a single centralized provider.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- TailwindCSS
+- MongoDB / PostgreSQL roadmap
+- OpenAPI
+- Docker
+- Kubernetes roadmap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Status
 
-## Deploy on Vercel
+Early-stage prototype.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
