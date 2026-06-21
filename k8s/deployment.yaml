@@ -1,0 +1,20 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openkyc-app
+  namespace: openkyc
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: openkyc-app
+  template:
+    metadata:
+      labels:
+        app: openkyc-app
+    spec:
+      containers:
+        - name: openkyc-app
+          image: openkyc-federation:latest
+          ports:
+            - containerPort: 3000
